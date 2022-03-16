@@ -7,7 +7,7 @@ document.querySelector("#btn").addEventListener('click', function (e) {
     x = parseFloat(document.querySelector("#x").value);
 
     y = Math.log(Math.E,(a+Math.pow(x,2))) + Math.pow(Math.sin(x/b),2);
-    w = (1/Math.pow(e,x)) * (x+Math.sqrt(x+a)) * Math.sqrt(y) / (x - Math.sqrt(Math.abs(x-b)));
+    w = w = (1/Math.pow(Math.E,x)) * (x+Math.sqrt(x+a)) * Math.sqrt(y) / (x - Math.sqrt(Math.abs(x-b)));
     yO.textContent = y;
     wO.textContent = w;
 
